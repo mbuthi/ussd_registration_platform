@@ -139,10 +139,6 @@ def ussd_callback():
     return resp
 
 
-def register():
-    print("arrived")
-    text = request.values.get("text", None)
-    print(text)
 
 
 if __name__ == "__main__":
