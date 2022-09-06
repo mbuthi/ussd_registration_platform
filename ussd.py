@@ -82,8 +82,7 @@ def ussd_callback():
         details_entered.append("")        
         level = 0
     details_entered.append(text)
-    print(details_entered)
-    print(text)
+    
     if text == "":
         if level == 0:
             response = "CON Welcome to medics health care \n"
